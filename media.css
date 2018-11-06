@@ -1,0 +1,41 @@
+/*不同分辨率下的元素尺寸及操作*/
+/*最大宽度*/
+@media (max-width: 575.98px) {
+    body{
+        padding-top: 74px;
+    }
+    .narrow{
+        display: block;
+    }
+    .wide{
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 1199.98px) {}
+
+/*最小宽度*/
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+/*区间值*/
+@media (max-width: 575.98px) {}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {}

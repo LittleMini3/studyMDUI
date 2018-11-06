@@ -1,0 +1,63 @@
+*{
+    list-style: none;
+}
+body,html{
+    background: #eff3f5;
+}
+body{
+    padding-top: 80px;
+}
+.white{
+    background: #fff;
+}
+.logo{
+    background: url('./imgs/icon_logo.JPG') no-repeat center center;
+    background-size: 90%;
+}
+.head{
+    height: 60px;
+    padding: 0;
+}
+.headright{
+    height: 100%;
+}
+.headleft>a{
+    padding: 0;
+}
+.headright{
+    text-align: right;
+    line-height: 60px;
+}
+.wide{
+    display: block;
+}
+.narrow{
+    display: none;
+}
+.banner{
+    margin-bottom: 20px;
+}
+.list,
+.list .li div{
+    padding: 0;
+    border-radius: 3px;
+    -webkit-border-radius: 3px; 
+}
+.list>li{
+    margin-bottom: 10px;
+}
+.list .user{
+    padding: 10px;
+    height: 35px;
+    line-height: 35px;
+}
+.mdui-card-media{
+    overflow: hidden;
+}
+.card{
+    transition: transform .6s;
+}
+.card:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
